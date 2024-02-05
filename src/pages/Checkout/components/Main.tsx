@@ -601,7 +601,7 @@ const FaqSection = () => {
       </div>
       <div className="lg:hidden grow border-b border-[#DDDDE3] pb-8 flex justify-center">
         <div className="support-cta max-w-[450px] bg-[#F9F9FB] p-3 rounded-3xl flex justify-between">
-          <div className="w-60 p-4">
+          <div className="min-w-56 max-w-60 p-4">
             <h4 className="lg:text-lg mb-4">
               Still need help? <br /> We’re here for you.
             </h4>

@@ -18,8 +18,9 @@ export const Welcome: React.FC = () => {
         <p className="mb-4 font-lato">
           This is my assignment submission for the job role of Frontend
           Engineer. I have used Material tailwind and tailwind css for designing
-          the UI. I have also added some interactivity using carousel in card
-          and accordion in Payment and FAQ section.
+          the UI. The checkout page is fully responsive as suggested in the
+          figma, I have also added some interactivity using carousel in card and
+          accordion in Payment and FAQ section.
         </p>
       </div>
     </section>
