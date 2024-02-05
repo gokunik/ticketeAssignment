@@ -1,30 +1,27 @@
-# React + TypeScript + Vite
+## Tickete assignment
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+#### Project structure
 
-Currently, two official plugins are available:
+Pages:
+Below is a quick overview of the components in the project.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Home - `src/pages/Home/index.tsx`
+  - Home components `src/pages/Home/components`
+    - Navmenu
+    - welcome
+    - Footer
+- Checkout - `src/pages/Checkout/index.tsx`
+  - Checkout components - `src/pages/Checkout/components`
+    - Header
+    - Main
+    - Footer
+    - HomeRedirect
+- Components - `src/components`
+  - Icons - for the icons used in the project
+  - sectionGap - for the spacing between sections
+- Hooks - `src/hooks`
 
-## Expanding the ESLint configuration
+  - useGetTimer - timer for checkout page
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+- Types - `src/types`
+  - types - for the types used in the project
