@@ -8,6 +8,7 @@ export default withMT({
       fontFamily: {
         sans: ["var(--primary-font)", "sans-serif"],
         roboto: ["var(--secondary-font)", "serif"],
+        lato: ["var(--tertiary-font)", "serif"],
       },
     },
   },
